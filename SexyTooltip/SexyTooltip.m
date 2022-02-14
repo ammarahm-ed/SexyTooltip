@@ -26,7 +26,6 @@ const static UIEdgeInsets defaultMargin = {10, 10, 10, 10};
     
     CAShapeLayer *_shapeLayer;
     
-    SexyTooltipArrowDirection _arrowDirection;
     CGFloat _arrowOffset;
 
     NSTimer *_dismissTimer;
