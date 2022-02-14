@@ -73,6 +73,7 @@ typedef NS_ENUM(NSUInteger, SexyTooltipArrowDirection) {
 // permittedArrowDirections maintains ordering, otherwise works just like UIPopoverController
 // defaults to [down, up, right, left]
 @property (nonatomic, strong) NSArray *permittedArrowDirections;
+@property (nonatomic, assign) SexyTooltipArrowDirection arrowDirection;
 
 - (id)initWithContentView:(UIView *)contentView;
 
@@ -125,3 +126,4 @@ typedef NS_ENUM(NSUInteger, SexyTooltipArrowDirection) {
 // Yea, it's complicated.
 
 @end
+
